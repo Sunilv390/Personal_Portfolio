@@ -498,6 +498,6 @@ body.dark-mode .menu-links {
   background-color: #1e1e1e;
 }
 
-body.dark-mode .icon {
+/* body.dark-mode .icon {
   filter: invert(1);
-}
+} */
