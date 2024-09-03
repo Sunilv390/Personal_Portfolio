@@ -14,17 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
   if (savedTheme) {
     body.classList.toggle("dark-mode", savedTheme === "dark");
     modeToggle.src =
-      savedTheme === "dark"
-        ? "./assets/dark-mode1.png"
-        : "./assets/light-mode1.png";
+      savedTheme === "dark" ? "./assets/sun.png" : "./assets/moon.png";
   }
 
   modeToggle.addEventListener("click", () => {
     body.classList.toggle("dark-mode");
     const isDarkMode = body.classList.contains("dark-mode");
-    modeToggle.src = isDarkMode
-      ? "./assets/dark-mode1.png"
-      : "./assets/light-mode1.png";
+    modeToggle.src = isDarkMode ? "./assets/sun.png" : "./assets/moon.png";
 
     // Save theme preference to local storage
     localStorage.setItem("theme", isDarkMode ? "dark" : "light");
