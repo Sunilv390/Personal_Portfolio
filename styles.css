@@ -383,7 +383,17 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
-
+.project-icon {
+  height: 1.85rem;
+}
+.project-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(85, 85, 85);
+  font-size: 15px;
+  padding: 10px;
+}
 /* CONTACT */
 
 #contact {
