@@ -125,6 +125,9 @@ a:hover {
 
 .menu-links li {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-links.open {
@@ -496,6 +499,7 @@ body.dark-mode .hamburger-icon span {
 
 body.dark-mode .menu-links {
   background-color: #1e1e1e;
+  border-radius: 1rem;
 }
 
 /* body.dark-mode .icon {
